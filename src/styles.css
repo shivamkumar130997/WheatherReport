@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #ddeeed;
+  height: 100vh;
+  padding: 10px;
+}
+input {
+  height: 50px;
+  width: 400px;
+}
+.btn {
+  background-color: rgb(22, 236, 129);
+  height: 50px;
+  width: 100px;
+  margin-left: 10px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0px;
+}
+.content div {
+  width: 48%;
+  margin: 1%;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  top: 40%;
+  left: 25%;
+  background-color: #ffffff;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
